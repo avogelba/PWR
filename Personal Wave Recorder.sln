@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personal Wave Recorder", "Personal Wave Recorder\Personal Wave Recorder.csproj", "{0BFFF957-9BEA-486F-83DD-E73B612D54A6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{68EBA320-B65E-4C07-ACCB-E1BC6DCF7216} = {68EBA320-B65E-4C07-ACCB-E1BC6DCF7216}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCML", "Libraries\RCM - Lite\RCML.csproj", "{68EBA320-B65E-4C07-ACCB-E1BC6DCF7216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlowButton", "Libraries\GlowButton\GlowButton.csproj", "{E61BEB16-FAF1-4460-9BBE-71EFA15A6704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaSlider", "Libraries\MediaSlider\MediaSlider.csproj", "{3BFF2D79-9BC6-4F1A-A0AB-DE3F9A7B5B57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{EBBF9099-936B-4B7A-B1A2-65B2A7200F21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Description", "Description", "{CA72A94E-B247-493C-9564-CD0CA7D42014}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+		screenshot.jpg = screenshot.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BFFF957-9BEA-486F-83DD-E73B612D54A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BFFF957-9BEA-486F-83DD-E73B612D54A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BFFF957-9BEA-486F-83DD-E73B612D54A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BFFF957-9BEA-486F-83DD-E73B612D54A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68EBA320-B65E-4C07-ACCB-E1BC6DCF7216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68EBA320-B65E-4C07-ACCB-E1BC6DCF7216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68EBA320-B65E-4C07-ACCB-E1BC6DCF7216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68EBA320-B65E-4C07-ACCB-E1BC6DCF7216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E61BEB16-FAF1-4460-9BBE-71EFA15A6704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61BEB16-FAF1-4460-9BBE-71EFA15A6704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61BEB16-FAF1-4460-9BBE-71EFA15A6704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61BEB16-FAF1-4460-9BBE-71EFA15A6704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BFF2D79-9BC6-4F1A-A0AB-DE3F9A7B5B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BFF2D79-9BC6-4F1A-A0AB-DE3F9A7B5B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BFF2D79-9BC6-4F1A-A0AB-DE3F9A7B5B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BFF2D79-9BC6-4F1A-A0AB-DE3F9A7B5B57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68EBA320-B65E-4C07-ACCB-E1BC6DCF7216} = {EBBF9099-936B-4B7A-B1A2-65B2A7200F21}
+		{E61BEB16-FAF1-4460-9BBE-71EFA15A6704} = {EBBF9099-936B-4B7A-B1A2-65B2A7200F21}
+		{3BFF2D79-9BC6-4F1A-A0AB-DE3F9A7B5B57} = {EBBF9099-936B-4B7A-B1A2-65B2A7200F21}
+	EndGlobalSection
+EndGlobal
